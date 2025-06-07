@@ -1,0 +1,23 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=OSLolo
+GenericName=Archive Manager
+Comment=Universal Archive Manager
+Icon=oslolo
+Exec=oslolo %F
+Actions=Extract;Create;
+Terminal=false
+Categories=Utility;Archiving;
+Keywords=archive;zip;rar;7z;tar;
+
+[Desktop Action Extract]
+Name=Extract Archive Here
+Exec=oslolo extract %f
+Icon=folder-extract
+
+[Desktop Action Create]
+Name=Create Archive...
+Exec=oslolo
+Icon=archive-insert

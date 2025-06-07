@@ -1,0 +1,68 @@
+
+/* src/oslolo/tui/themes/norton_classic.tcss */
+Screen {
+    background: #0000A8; /* Norton Blue */
+    color: #FFFF54; /* Yellow Text */
+}
+
+Header {
+    background: #00A8A8; /* Cyan */
+    color: black;
+    text-style: bold;
+}
+
+Footer {
+    background: #00A8A8;
+    color: black;
+}
+
+Footer > .footer--key {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.panel-title {
+    content-align: center top;
+    width: 100%;
+    background: #FFFFFF;
+    color: #0000A8;
+    text-style: bold;
+}
+
+FileBrowser {
+    background: #0000A8;
+    color: #FFFFFF;
+    border: none;
+}
+
+DirectoryTree > .directory-tree--selected {
+    background: #FFFF54;
+    color: #000000;
+}
+
+DirectoryTree > .directory-tree--cursor {
+    background: #FFFFFF;
+    color: #000000;
+    text-style: bold;
+}
+
+DirectoryTree > .directory-tree--guides {
+    color: #00A8A8;
+}
+
+CommandBar {
+    dock: bottom;
+    background: #00A8A8;
+    color: black;
+    height: 1;
+    layout: horizontal;
+}
+
+CommandBar > Label {
+    padding: 0 1;
+}
+
+CommandBar > .key {
+    background: #000000;
+    color: #FFFFFF;
+}

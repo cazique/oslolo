@@ -1,0 +1,2 @@
+[console_scripts]
+oslolo = oslolo.main:entry_point

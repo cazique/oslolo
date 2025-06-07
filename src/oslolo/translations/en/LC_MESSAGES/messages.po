@@ -1,0 +1,47 @@
+
+# English translations for OSLolo.
+# Copyright (C) 2025 Universidad Team
+# This file is distributed under the same license as the OSLolo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSLolo 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-07 00:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: oslolo/gui/views/main_window.py
+msgid "Ready. Drag and drop an archive to open."
+msgstr "Ready. Drag and drop an archive to open."
+
+#: oslolo/gui/views/main_window.py
+msgid "Add"
+msgstr "Add"
+
+#: oslolo/gui/views/main_window.py
+msgid "Extract"
+msgstr "Extract"
+
+#: oslolo/gui/views/main_window.py
+msgid "Test"
+msgstr "Test"
+
+#: oslolo/gui/views/main_window.py
+msgid "&File"
+msgstr "&File"
+
+#: oslolo/gui/views/main_window.py
+msgid "Exit"
+msgstr "Exit"
+
+#: oslolo/cli/commands/extract.py
+msgid "Extracts files from an archive."
+msgstr "Extracts files from an archive."

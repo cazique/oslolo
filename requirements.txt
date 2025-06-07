@@ -1,0 +1,19 @@
+# Core & CLI
+py7zr>=0.21.0
+rarfile>=4.1
+libarchive-c>=4.0
+cryptography>=42.0
+click>=8.1.7
+
+# TUI
+textual>=0.58.0
+rich>=13.7.1
+
+# GUI  
+PyQt6>=6.7.0
+QtAwesome>=1.3.1
+qdarkstyle>=3.2.3
+
+# Utilities
+psutil
+send2trash

@@ -1,0 +1,42 @@
+
+/* A simple light theme for OSLolo */
+QWidget {
+    background-color: #f0f0f0;
+    color: #000000;
+    border: 0px;
+}
+
+QMainWindow, QDialog {
+    background-color: #f0f0f0;
+}
+
+QToolBar, QMenuBar, QStatusBar {
+    background-color: #e8e8e8;
+    border: 1px solid #dcdcdc;
+}
+
+QMenuBar::item:selected, QMenu::item:selected {
+    background-color: #cde8ff;
+}
+
+QMenu {
+    background-color: #f0f0f0;
+    border: 1px solid #dcdcdc;
+}
+
+QTreeWidget {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #dcdcdc;
+}
+
+QHeaderView::section {
+    background-color: #e8e8e8;
+    padding: 4px;
+    border: 1px solid #dcdcdc;
+}
+
+QTreeWidget::item:selected {
+    background-color: #cde8ff;
+    color: #000000;
+}

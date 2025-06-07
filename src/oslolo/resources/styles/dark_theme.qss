@@ -1,0 +1,84 @@
+
+/*
+  QDarkStyle - A dark stylesheet for Qt applications
+  Slightly customized for OSLolo
+*/
+QWidget {
+    background-color: #2d2d2d;
+    color: #cccccc;
+    border: 0px;
+}
+
+QMainWindow, QDialog {
+    background-color: #2d2d2d;
+}
+
+QToolBar {
+    background-color: #353535;
+    border: 1px solid #444444;
+    padding: 2px;
+}
+
+QStatusBar {
+    background-color: #353535;
+    color: #cccccc;
+}
+
+QMenuBar {
+    background-color: #353535;
+    color: #cccccc;
+}
+
+QMenuBar::item:selected {
+    background-color: #555555;
+}
+
+QMenu {
+    background-color: #353535;
+    border: 1px solid #444444;
+}
+
+QMenu::item:selected {
+    background-color: #555555;
+}
+
+QTreeWidget {
+    background-color: #2d2d2d;
+    color: #cccccc;
+    border: 1px solid #444444;
+}
+
+QHeaderView::section {
+    background-color: #353535;
+    color: #cccccc;
+    padding: 4px;
+    border: 1px solid #444444;
+}
+
+QTreeWidget::item:selected {
+    background-color: #555555;
+}
+
+QScrollBar:vertical {
+    border: 1px solid #444444;
+    background: #3d3d3d;
+    width: 15px;
+    margin: 15px 0 15px 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #555555;
+    min-height: 20px;
+}
+
+QScrollBar:horizontal {
+    border: 1px solid #444444;
+    background: #3d3d3d;
+    height: 15px;
+    margin: 0 15px 0 15px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #555555;
+    min-width: 20px;
+}
